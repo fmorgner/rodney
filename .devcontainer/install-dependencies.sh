@@ -9,6 +9,7 @@ apk add --no-cache \
     cmake \
     gcc-avr \
     git \
-    make
+    make \
+    openssh
 
 rm -rf /var/cache/apk
