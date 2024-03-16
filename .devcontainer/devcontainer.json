@@ -1,0 +1,19 @@
+{
+    "image": "docker.io/alpine:3.19",
+    "name": "rodney-code",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cmake-tools",
+                "ms-vscode.cpptools",
+                "keroc.hex-fmt"
+            ],
+            "settings": {
+                "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+                "C_Cpp.intelliSenseEngine": "default",
+                "cmake.options.statusBarVisibility": "compact"
+            }
+        }
+    },
+    "onCreateCommand": ".devcontainer/install-dependencies.sh"
+}
