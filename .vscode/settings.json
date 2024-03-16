@@ -1,0 +1,10 @@
+{
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=cmake/Toolchains/AvrToolchain.cmake",
+        "-DCMAKE_PROJECT_INCLUDE=cmake/Platforms/ATmega32u4.cmake",
+        "-DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=lib",
+        "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=lib",
+        "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=bin"
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}/source",
+}
